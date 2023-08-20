@@ -129,13 +129,14 @@
                 <div class="contact-form-title">
                     <p>get in touch</p>
                 </div>
-                <form action="#">
+                <form class="form-contact contact_form" action="contact.php" method="post" id="contactForm"
+                novalidate="novalidate">
                     <div class="row">
                         <div class="col-12">
-                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
                         </div>
                         <div class="col-12">
-                            <input type="email" class="form-control" placeholder="Your Email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
                         </div>
                         <div class="col-12">
                             <textarea name="message" class="form-control" id="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
